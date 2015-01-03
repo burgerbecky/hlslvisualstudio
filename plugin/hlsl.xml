@@ -62,7 +62,7 @@
 			Description="Strip debug information from 4_0+ shader bytecode. (/Qstrip_debug)"
 			Switch="/Qstrip_debug" />
 
-		<DynamicEnumProperty Name="HLSLBeforeTargets" Category="General" EnumProvider="Targets" IncludeInCommandLine="False"
+		<DynamicEnumProperty Category="General" Name="HLSLBeforeTargets" EnumProvider="Targets" IncludeInCommandLine="False"
 			DisplayName="Execute Before"
 			Description="Specifies the targets for the build customization to run before.">
 			<DynamicEnumProperty.ProviderSettings>
@@ -72,7 +72,7 @@
 				<DataSource Persistence="ProjectFile" ItemType="" HasConfigurationCondition="true" />
 			</DynamicEnumProperty.DataSource>
 		</DynamicEnumProperty>
-		<DynamicEnumProperty Name="HLSLAfterTargets" Category="General" EnumProvider="Targets" IncludeInCommandLine="False"
+		<DynamicEnumProperty Category="General" Name="HLSLAfterTargets" EnumProvider="Targets" IncludeInCommandLine="False"
 			DisplayName="Execute After"
 			Description="Specifies the targets for the build customization to run after.">
 			<DynamicEnumProperty.ProviderSettings>
