@@ -1,57 +1,58 @@
-HLSL Visual Studio 2010+ Integration
-====================================
+# HLSL Visual Studio 2010+ Integration
 
-**Or, how do I include DirectX shader code in my project?**
+**Or, how do I include DirectX HLSL shader code in my project?**
 
-Copyright 2015 by Rebecca Ann Heineman becky@burgerbecky.com
+## What is HLSL Visual Studio 2010+ Integration
 
-It is released under an MIT Open Source license. Please see LICENSE
-for license details. Yes, you can use it in a
-commercial title without paying anything, just give me a credit.
-Please? It's not like I'm asking you for money!
-
-What is HLSL Visual Studio 2010+ Integration?
----------------------------------------------
-
-This is a plug in for Visual Studio 2010 or higher that will
-allow files with the HLSL extension to automatically be compiled
-with the fxc tool found in the DirectX SDK. 
+This is a plug in for Visual Studio 2010 or higher that will allow files with the HLSL extension to automatically be compiled with the fxc tool found in the DirectX SDK.
 
 The tool will be listed as "Effect-Compiler Tool"
 
-What does it require?
---------------------
+## What is required
 
-Visual Studio 2010, 2012, 2013 or any other MSBuild compatible
-IDE and the June 2010 or later Direct X SDK
+Visual Studio 2010 or higher or any other MSBuild compatible
+IDE and the [June 2010 or later Direct X SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812)
 
-How do I use it?
-----------------
+## How to install it
 
-Copy the contents of the "plugin" folder to the folder 
-<em>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations</em>
+### For Visual Studio 2010
 
-Find this line in your .vcxproj file
-<em>&lt;Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/&gt;</em>
+[Head over to the releases page](https://github.com/burgerbecky/hlslvisualstudio/releases) and download the *.msi installer.
 
-Insert this after it
-<pre>&lt;ImportGroup Label="ExtensionSettings"/&gt;
-	&lt;Import Project="$(VCTargetsPath)\BuildCustomizations\hlsl.props" /&gt;
-&lt;/ImportGroup/&gt;
-</pre>
+### For Visual Studio 2012 through 2017
 
-Find this line near the end of your .vcxproj file
-<em>&lt;Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" /&gt;</em>
+Download it directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BurgerBecky.hlslvs2012)
 
-Insert this after it.
-<pre>&lt;ImportGroup Label="ExtensionTargets"&gt;
-	&lt;Import Project="$(VCTargetsPath)\BuildCustomizations\hlsl.targets" /&gt;
-&lt;/ImportGroup&gt;
-</pre>
+### For Visual Studio 2019 and later
 
-This is great/sucks! But, how can I change/rewrite/steal the tool?
-----------------------------------------------------
+Download it directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BurgerBecky.hlslvs2019)
 
-The source code to the tool is in the folder "source". It will require Burgerlib for some
-subroutines. https://github.com/Olde-Skuul/KitchenSink has the binaries of the library
-and https://github.com/Olde-Skuul/burgerlib has the source to the library.
+## How to use it
+
+After installation, open a project file and select BuildCustomizations as shown:
+
+![Build customization menu][build]
+
+When the dialog opens, check "hlsl" and you're done!
+
+![Customization List][list]
+
+All files that end with the suffix of *.hlsl will automatically map to this tool, however you can select the compiler by right clicking any source file in the project and select "Effect-Compiler Tool".
+
+## This is great/sucks! But, how can I change/rewrite/steal the tool
+
+The source code to the tool is in the folder "BuildCustomizations" on [Github](https://github.com/burgerbecky/hlslvisualstudio). Pull requests and bug reports are encouraged.
+
+-------
+
+## License
+
+Copyright 2015-2019 by Rebecca Ann Heineman becky@burgerbecky.com
+
+It is released under an MIT Open Source license. Please see LICENSE.txt for license details. Yes, you can use it in a commercial title without paying anything, just give me a credit.
+
+Please? It's not like I'm asking you for money!
+
+[build]: https://raw.githubusercontent.com/burgerbecky/hlslvisualstudio/master/Resources/buildcustomizations.png "BuildCustomizations menu item"
+
+[list]: https://raw.githubusercontent.com/burgerbecky/hlslvisualstudio/master/Resources/customization_list.png "Customization list"
