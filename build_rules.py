@@ -119,8 +119,10 @@ def main(working_dir):
                     break
     return error
 
+# Unused arguments
+# pylint: disable=W0613
 
-def rules(command, working_directory, root=True, **kargs):
+def rules(command, working_directory=None, root=True, **kargs):
     """
     Main entry point for build_rules.py.
 
@@ -153,7 +155,7 @@ def rules(command, working_directory, root=True, **kargs):
     if command == 'clean':
         burger.clean_directories(
             working_directory, ('bin', 'obj', 'Properties', '.vs'))
-        burger.clean_files(working_directory, ('Key.snk', '*.user'))
+        burger.clean_files(working_directory, ('Key.snk', '*.user', '*.suo'))
 
     return 0
 
