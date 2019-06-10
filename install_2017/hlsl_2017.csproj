@@ -20,8 +20,8 @@
     <ProjectGuid>{55768A27-F296-4FE3-8E31-C372060E1C6E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>hlsl_vs2012</RootNamespace>
-    <AssemblyName>hlsl-vs2012</AssemblyName>
+    <RootNamespace>hlsl_vs2017</RootNamespace>
+    <AssemblyName>hlsl-vs2017</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -52,19 +52,16 @@
     <Content Include="..\BuildCustomizations\hlsl.xml">
       <IncludeInVSIX>true</IncludeInVSIX>
       <InstallRoot>VCTargets</InstallRoot>
-      <TargetPath>hlsl.xml</TargetPath>
       <VSIXSubPath>BuildCustomizations</VSIXSubPath>
     </Content>
     <Content Include="..\BuildCustomizations\hlsl.props">
       <IncludeInVSIX>true</IncludeInVSIX>
       <InstallRoot>VCTargets</InstallRoot>
-      <TargetPath>hlsl.props</TargetPath>
       <VSIXSubPath>BuildCustomizations</VSIXSubPath>
     </Content>
     <Content Include="..\BuildCustomizations\hlsl.targets">
       <IncludeInVSIX>true</IncludeInVSIX>
       <InstallRoot>VCTargets</InstallRoot>
-      <TargetPath>hlsl.targets</TargetPath>
       <VSIXSubPath>BuildCustomizations</VSIXSubPath>
     </Content>
     <Content Include="..\LICENSE.txt">

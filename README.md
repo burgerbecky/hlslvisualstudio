@@ -15,11 +15,11 @@ IDE and the [June 2010 or later Direct X SDK](https://www.microsoft.com/en-us/do
 
 ## How to install it
 
-### For Visual Studio 2010
+### For Visual Studio 2010 through 2015
 
 [Head over to the releases page](https://github.com/burgerbecky/hlslvisualstudio/releases) and download the *.msi installer.
 
-### For Visual Studio 2012 through 2017
+### For Visual Studio 2017
 
 Download it directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BurgerBecky.hlslvs2012)
 

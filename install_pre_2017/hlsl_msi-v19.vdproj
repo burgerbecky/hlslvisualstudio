@@ -15,7 +15,25 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_06A8A1E841A5410899201894C7AF53E3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18E6A2820DD145BB9134342A59FA2ECB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3695E73FE2DE44C2BC77F72A1C34BD7E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_41344DB2715D4A05A0D11740AD6F6E84"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -27,7 +45,43 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_5499CE38FBB6485A9B1B501BD3D00C62"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7C937CB91B9C4F4498615DA6341AAA90"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8D708D264EFB45E2860EB1C601E6796C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8E490083646E45808F96C40354B346D4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_925CF59B1EC340B198F71A106C8E3554"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D10A144C85444B7CA838E22AAFBE0D6F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F47376EEFDF745C7A3923C692B319A0A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -39,7 +93,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:..\\bin\\hlsl-vs2010.msi"
+        "OutputFilename" = "8:..\\bin\\hlsl-vs2010-2015.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -81,12 +135,72 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_06A8A1E841A5410899201894C7AF53E3"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.targets"
+            "TargetName" = "8:hlsl.targets"
+            "Tag" = "8:"
+            "Folder" = "8:_CEA6FECD97C343409A43835A25796A7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_18E6A2820DD145BB9134342A59FA2ECB"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.props"
+            "TargetName" = "8:hlsl.props"
+            "Tag" = "8:"
+            "Folder" = "8:_CEA6FECD97C343409A43835A25796A7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3695E73FE2DE44C2BC77F72A1C34BD7E"
             {
             "SourcePath" = "8:..\\BuildCustomizations\\hlsl.xml"
             "TargetName" = "8:hlsl.xml"
             "Tag" = "8:"
             "Folder" = "8:_0ADF7AA71AFD43688596D44C0B5DB582"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_41344DB2715D4A05A0D11740AD6F6E84"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.props"
+            "TargetName" = "8:hlsl.props"
+            "Tag" = "8:"
+            "Folder" = "8:_FDA6FA1DA5994F3D9DD24BCBA092EEC3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -121,12 +235,132 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5499CE38FBB6485A9B1B501BD3D00C62"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.xml"
+            "TargetName" = "8:hlsl.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_FEB59A038B1648249F5A3B34C9FE2DDD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7C937CB91B9C4F4498615DA6341AAA90"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.targets"
+            "TargetName" = "8:hlsl.targets"
+            "Tag" = "8:"
+            "Folder" = "8:_FDA6FA1DA5994F3D9DD24BCBA092EEC3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8D708D264EFB45E2860EB1C601E6796C"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.props"
+            "TargetName" = "8:hlsl.props"
+            "Tag" = "8:"
+            "Folder" = "8:_FEB59A038B1648249F5A3B34C9FE2DDD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8E490083646E45808F96C40354B346D4"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.xml"
+            "TargetName" = "8:hlsl.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_FDA6FA1DA5994F3D9DD24BCBA092EEC3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_925CF59B1EC340B198F71A106C8E3554"
             {
             "SourcePath" = "8:..\\BuildCustomizations\\hlsl.targets"
             "TargetName" = "8:hlsl.targets"
             "Tag" = "8:"
             "Folder" = "8:_0ADF7AA71AFD43688596D44C0B5DB582"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D10A144C85444B7CA838E22AAFBE0D6F"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.targets"
+            "TargetName" = "8:hlsl.targets"
+            "Tag" = "8:"
+            "Folder" = "8:_FEB59A038B1648249F5A3B34C9FE2DDD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F47376EEFDF745C7A3923C692B319A0A"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.xml"
+            "TargetName" = "8:hlsl.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_CEA6FECD97C343409A43835A25796A7F"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -192,6 +426,72 @@
                                             "Property" = "8:_5EC2EC096DFC4CA18820978B6076C426"
                                                 "Folders"
                                                 {
+                                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_0DEB328705A048F4815063528635D243"
+                                                    {
+                                                    "Name" = "8:V110"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "Condition" = "8:"
+                                                    "Transitive" = "11:FALSE"
+                                                    "Property" = "8:_2C7F7A304631466CB17266FEEC6282AC"
+                                                        "Folders"
+                                                        {
+                                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_CEA6FECD97C343409A43835A25796A7F"
+                                                            {
+                                                            "Name" = "8:BuildCustomizations"
+                                                            "AlwaysCreate" = "11:FALSE"
+                                                            "Condition" = "8:"
+                                                            "Transitive" = "11:FALSE"
+                                                            "Property" = "8:_CB13F3BB5FF54E609C4B3477BAB9879A"
+                                                                "Folders"
+                                                                {
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_44F44FFF8E214D25BE0E3BBA5881FBD3"
+                                                    {
+                                                    "Name" = "8:V120"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "Condition" = "8:"
+                                                    "Transitive" = "11:FALSE"
+                                                    "Property" = "8:_DF11BE322787467888CF22F7D43F4B82"
+                                                        "Folders"
+                                                        {
+                                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_FEB59A038B1648249F5A3B34C9FE2DDD"
+                                                            {
+                                                            "Name" = "8:BuildCustomizations"
+                                                            "AlwaysCreate" = "11:FALSE"
+                                                            "Condition" = "8:"
+                                                            "Transitive" = "11:FALSE"
+                                                            "Property" = "8:_578FEB2AEFA54E7A91A473034D14003A"
+                                                                "Folders"
+                                                                {
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_69BA3FE66C504857A43463C632B7667F"
+                                                    {
+                                                    "Name" = "8:V140"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "Condition" = "8:"
+                                                    "Transitive" = "11:FALSE"
+                                                    "Property" = "8:_EB299833201C4E42AE9852612C75A64A"
+                                                        "Folders"
+                                                        {
+                                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_FDA6FA1DA5994F3D9DD24BCBA092EEC3"
+                                                            {
+                                                            "Name" = "8:BuildCustomizations"
+                                                            "AlwaysCreate" = "11:FALSE"
+                                                            "Condition" = "8:"
+                                                            "Transitive" = "11:FALSE"
+                                                            "Property" = "8:_646D40A0D4D54165AADA4C0B8E910020"
+                                                                "Folders"
+                                                                {
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                 }
                                             }
                                         }
@@ -229,7 +529,7 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:HLSL Visual Studio 2010 Integration"
+        "ProductName" = "8:HLSL Visual Studio 2010-2015 Integration"
         "ProductCode" = "8:{79F16318-E3B0-4037-BA16-C7BB3CAE10B2}"
         "PackageCode" = "8:{EB7E0460-B3B3-4DF7-A906-D203337F7F65}"
         "UpgradeCode" = "8:{16E22366-28E6-4F3B-9E9C-B49346BF6510}"
@@ -242,11 +542,11 @@
         "Manufacturer" = "8:Rebecca Ann Heineman"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:HLSL Visual Studio 2010 Integration"
+        "Title" = "8:HLSL Visual Studio 2010-2015 Integration"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Rebecca Ann Heineman"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:HLSL Visual Studio 2010 Integration"
+        "ARPCOMMENTS" = "8:HLSL Visual Studio 2010-2015 Integration"
         "ARPURLINFOABOUT" = "8:http://www.burgerbecky.com"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
