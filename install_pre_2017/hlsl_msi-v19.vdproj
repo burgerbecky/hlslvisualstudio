@@ -27,6 +27,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_2785A469456442F6BC9C254E300C57C2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3695E73FE2DE44C2BC77F72A1C34BD7E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -75,6 +81,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9281828CA12946C48482D31CD1329BAC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_D10A144C85444B7CA838E22AAFBE0D6F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -93,7 +105,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:..\\bin\\hlsl-vs2010-2015.msi"
+        "OutputFilename" = "8:..\\bin\\hlsl-vs2005-2015.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -161,6 +173,26 @@
             "TargetName" = "8:hlsl.props"
             "Tag" = "8:"
             "Folder" = "8:_CEA6FECD97C343409A43835A25796A7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2785A469456442F6BC9C254E300C57C2"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.rules"
+            "TargetName" = "8:hlsl.rules"
+            "Tag" = "8:"
+            "Folder" = "8:_ED0BC712322F43D099D614AD6C9B794E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -335,6 +367,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9281828CA12946C48482D31CD1329BAC"
+            {
+            "SourcePath" = "8:..\\BuildCustomizations\\hlsl.rules"
+            "TargetName" = "8:hlsl.rules"
+            "Tag" = "8:"
+            "Folder" = "8:_FB9F0B149A54452185899D472E131EA8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D10A144C85444B7CA838E22AAFBE0D6F"
             {
             "SourcePath" = "8:..\\BuildCustomizations\\hlsl.targets"
@@ -390,6 +442,39 @@
             "Property" = "8:ProgramFilesFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_CA383251DA9B4717AC25471EE2944B71"
+                    {
+                    "Name" = "8:Microsoft Visual Studio 9.0"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_4EFC536EC5634725A95C8494FD054D18"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_17605B3D691F45B08255E62A16EC7D63"
+                            {
+                            "Name" = "8:VC"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_956CCCA65B35424C98CDBAB91BF8EE2A"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_FB9F0B149A54452185899D472E131EA8"
+                                    {
+                                    "Name" = "8:VCProjectDefaults"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_30716B7ABE414EA3BCEC155DBA6059C0"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_E70CFD2797DC4A709787BBD3B0A3EC74"
                     {
                     "Name" = "8:MSBuild"
@@ -500,6 +585,39 @@
                             }
                         }
                     }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_FB050DBF63A0464EA0FFDA6BF42230EC"
+                    {
+                    "Name" = "8:Microsoft Visual Studio 8"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_BDC18EAE00CA4E70A283D5914EBEEBA5"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_ACDC44E59B0A4E21B62D516575BF5068"
+                            {
+                            "Name" = "8:VC"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_C49AE89A2B484A30B2380DDE0644B956"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_ED0BC712322F43D099D614AD6C9B794E"
+                                    {
+                                    "Name" = "8:VCProjectDefaults"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_D086B20AAA894AF19F34A1623CB48BCC"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_7AE79F2088E24EAE9C7412DAFEBECE47"
@@ -529,24 +647,24 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:HLSL Visual Studio 2010-2015 Integration"
+        "ProductName" = "8:HLSL Visual Studio 2005-2015 Integration"
         "ProductCode" = "8:{79F16318-E3B0-4037-BA16-C7BB3CAE10B2}"
-        "PackageCode" = "8:{EB7E0460-B3B3-4DF7-A906-D203337F7F65}"
+        "PackageCode" = "8:{2A8E75DB-8526-4B39-93DA-BBC1FB3C66B9}"
         "UpgradeCode" = "8:{16E22366-28E6-4F3B-9E9C-B49346BF6510}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.3"
         "Manufacturer" = "8:Rebecca Ann Heineman"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:HLSL Visual Studio 2010-2015 Integration"
+        "Title" = "8:HLSL Visual Studio 2005-2015 Integration"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Rebecca Ann Heineman"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:HLSL Visual Studio 2010-2015 Integration"
+        "ARPCOMMENTS" = "8:HLSL Visual Studio 2005-2015 Integration"
         "ARPURLINFOABOUT" = "8:http://www.burgerbecky.com"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
@@ -749,28 +867,6 @@
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_15953E806BB945C494F9616609DD06E8"
-                    {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4E5785C81E4C47D2A0B0BDF5B3379304"
                     {
                     "Sequence" = "3:300"
@@ -862,41 +958,6 @@
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_06B61E6F87B24565A9671FB180FFFBA8"
-                    {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "InstallAllUsersVisible"
-                            {
-                            "Name" = "8:InstallAllUsersVisible"
-                            "DisplayName" = "8:#1059"
-                            "Description" = "8:#1159"
-                            "Type" = "3:5"
-                            "ContextData" = "8:1;True=1;False=0"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:0"
-                            "Value" = "3:1"
-                            "DefaultValue" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_55FF30AA958E41DEA23D3578DDD25494"
                     {
                     "Sequence" = "3:100"

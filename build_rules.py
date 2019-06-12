@@ -12,112 +12,11 @@ commercial title without paying anything, just give me a credit.
 Please? It's not like I'm asking you for money!
 """
 
-from __future__ import absolute_import
+from __future__ import absolute_import, unicode_literals
 
 import os
 import sys
 import burger
-
-# List of files and folders to copy
-PROPS_FILES = [
-    'hlsl.props',
-    'hlsl.targets',
-    'hlsl.xml'
-]
-
-EXTRA_FILES = [
-    'AUTHORS',
-    'LICENSE',
-    'README.md'
-]
-
-
-def main(working_dir):
-    """
-    Copy up the HLSL visual studio plug in to sdks/visualstudio
-    """
-
-    # Locate the SDKs folder so the files can be copied there
-    sdks = burger.get_sdks_folder()
-
-    rootpluginfolder = os.path.join(working_dir, 'plugin')
-
-    #
-    # Ensure the destination directory exists
-    #
-
-    visualstudiofolder = os.path.join(sdks, 'visualstudio')
-    burger.create_folder_if_needed(visualstudiofolder)
-
-    #
-    # Create the github folder on PC hosts
-    #
-
-    githubfolder = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(
-        os.path.dirname(working_dir)))), 'github', 'hlslvisualstudio')
-    githubpluginfolder = os.path.join(githubfolder, 'plugin')
-
-    hostmachine = burger.host_machine()
-    if hostmachine == 'windows':
-        burger.create_folder_if_needed(githubfolder)
-        burger.create_folder_if_needed(githubpluginfolder)
-
-    #
-    # Copy all the changed files for sdks\visualstudio
-    #
-
-    error = 0
-    for item in PROPS_FILES:
-
-        #
-        # If the file had changed, update it in perforce
-        #
-
-        sourcefile = os.path.join(rootpluginfolder, item)
-        destfile = os.path.join(visualstudiofolder, item)
-        if os.path.isfile(destfile) is not True or \
-                burger.compare_files(sourcefile, destfile) is not True:
-
-            error = burger.copy_file_if_needed(
-                sourcefile, destfile, perforce=True)
-            if error:
-                break
-
-    #
-    # Copy the files to the github folder
-    # if the host is a PC
-    #
-
-    if error == 0 and hostmachine == 'windows':
-
-        for item in PROPS_FILES:
-
-            #
-            # If the file had changed, update it
-            #
-
-            sourcefile = os.path.join(rootpluginfolder, item)
-            destfile = os.path.join(githubpluginfolder, item)
-            if os.path.isfile(destfile) is not True or \
-                    burger.compare_files(sourcefile, destfile) is not True:
-                error = burger.copy_file_if_needed(sourcefile, destfile)
-                if error != 0:
-                    break
-
-        for item in EXTRA_FILES:
-
-            #
-            # If the file had changed, update it
-            #
-
-            sourcefile = os.path.join(working_dir, item)
-            destfile = os.path.join(githubfolder, item)
-            if os.path.isfile(destfile) is not True or \
-                    burger.compare_files(sourcefile, destfile) is not True:
-                error = burger.copy_file_if_needed(sourcefile, destfile)
-                if error:
-                    break
-    return error
 
 # Unused arguments
 # pylint: disable=W0613

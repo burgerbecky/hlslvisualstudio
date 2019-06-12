@@ -21,43 +21,43 @@
 
 		<!-- Options for the General sub menu -->
 		<StringListProperty Category="General" Name="AdditionalIncludeDirectories"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Additional Include Directories"
 			Description="Specifies one or more directories to add to the include path; seperate with semi-colons if more than one. (/I [path])"
 			Switch="/I &quot;[value]&quot;" />
 			
 		<BoolProperty Category="General" Name="GenerateDebugInformation"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Generate Debug Information"
 			Description="Generates Debug Information. (/Zi)"
 			Switch="/Zi" />
 			
 		<BoolProperty Category="General" Name="NoLogo"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Suppress Startup Banner"
 			Description="Suppress the display of the sign-on banner when the compiler starts up and display of information messages during compiling. (/nologo)"
 			Switch="/nologo" />
 			
 		<BoolProperty Category="General" Name="DisableValidation"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Disable Validation"
 			Description="Suppress validating the shader. (/Vd)"
 			Switch="/Vd" />
 			
 		<BoolProperty Category="General" Name="TreatWarningsAsErrors"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Treat Warnings As Errors"
 			Description="Returns an error code if warnings are generated. (/WX)"
 			Switch="/WX" />
 
 		<BoolProperty Category="General" Name="StripReflectionData"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Strip reflection data from 4_0+ shader bytecode"
 			Description="Strip reflection data from 4_0+ shader bytecode. (/Qstrip_reflect)"
 			Switch="/Qstrip_reflect" />
 
 		<BoolProperty Category="General" Name="StripDebugInformation"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Strip debug information from 4_0+ shader bytecode"
 			Description="Strip debug information from 4_0+ shader bytecode. (/Qstrip_debug)"
 			Switch="/Qstrip_debug" />
@@ -85,7 +85,7 @@
 
 		<!-- Options for the Optimization sub menu -->
 		<EnumProperty Category="Optimization" Name="Optimization"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Optimization Level"
 			Description="Sets the Optimization level, where level = 0, 1, 2, or 3. (/Od, /O0, /O1, /O2, /O3)">
 			<EnumValue Name="0" DisplayName="Disabled" Switch="/Od" />
@@ -96,13 +96,13 @@
 		</EnumProperty>
 		
 		<BoolProperty Category="Optimization" Name="DisablePreshaders"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Disable preshaders."
 			Description="Disable preshaders. (/Op)"
 			Switch="/oP" />
 			
 		<EnumProperty Category="Optimization" Name="MatricesPacking"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Order of Matrices packing"
 			Description="Sets the matrix packing order to either be Row Major or Column Major. (/Zpr, /Zpc)">
 			<EnumValue Name="Row" DisplayName="Row Major Order" Switch="/Zpr" />
@@ -110,13 +110,13 @@
 		</EnumProperty>
 		
 		<BoolProperty Category="Optimization" Name="ForcePartialPrecision"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Force partial precision."
 			Description="Force partial precision. (/Gpp)"
 			Switch="/Gpp" />
 			
 		<EnumProperty Category="Optimization" Name="FlowControl"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Flow control hinting"
 			Description="Sets the flow control preference to eithre avoid branching or prefer branching. (/Gfa, /Gfp)">
 			<EnumValue Name="Avoid" DisplayName="Avoid flow control constructs" Switch="/Gfa" />
@@ -124,38 +124,38 @@
 		</EnumProperty>
 
 		<BoolProperty Category="Optimization" Name="DisableEffectPerformanceMode"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Disable effect performance mode."
 			Description="Disable effect performance mode. (/Gdp)"
 			Switch="/Gdp" />
 
 		<BoolProperty Category="Optimization" Name="EnableStrictMode"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Enable strict mode."
 			Description="Enable strict mode. (/Ges)"
 			Switch="/Ges" />
 
 		<BoolProperty Category="Optimization" Name="EnableBackwardsCompatibility"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Enable backwards compatibility mode."
 			Description="Enable backwards compatibility mode. (/Gec)"
 			Switch="/Gec" />
 
 		<BoolProperty Category="Optimization" Name="ForceIEEEStrictness"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Force IEEE strictness."
 			Description="Force IEEE strictness. (/Gis)"
 			Switch="/Gis" />
 
 		<!-- Options for the Preprocessor sub menu -->
 		<StringListProperty Category="Preprocessor" Name="PreprocessorDefinitions"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Preprocessor Definitions"
 			Description="Defines preprocessing symbols for your source file. (/D[symbol])"
 			Switch="/D&quot;[value]&quot;" />
 
 		<EnumProperty Category="Preprocessor" Name="GeneratePreprocessedSourceListing"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Generate Preprocessed Source Listing"
 			Description="Generates a preprocessed source listing. (/P)">
 			<EnumValue Name="false" Switch="" DisplayName="No Listing" Description="No listing." />
@@ -165,25 +165,25 @@
 		</EnumProperty>
 
 		<StringProperty Category="Preprocessor" Name="PreprocessedSourceListingName"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Preprocess source file"
 			Description="Specifies the preprocessed source file output (/P[name])" />
 
 		<BoolProperty Category="Preprocessor" Name="ShowIncludeProcess"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Display details about the include process."
 			Description="Display details about the include process. (/Vi)"
 			Switch="/Vi" />
 
 		<!-- Options for the Output Files sub menu -->
 		<StringProperty Category="Output Files" Name="ObjectFileName"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Object File Name"
 			Description="Specifies the name of the output object file. (/Fo[file])"
 			Switch="/Fo&quot;[value]&quot;" />
 
 		<StringProperty Category="Output Files" Name="HeaderFileName"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Header File Name"
 			Description="Specifies the name of the output header file. (/Fh[file])"
 			Switch="/Fh&quot;[value]&quot;" />
@@ -199,12 +199,12 @@
 		</EnumProperty>
 		
 		<StringProperty Category="Output Files" Name="AssemblyListingFileName"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Assembly Listing File Name"
 			Description="Specifies the name of the assembly output file. (/Fc[file], /Fx[file])" />
 
 		<EnumProperty Category="Output Files" Name="GenerateWarningFile"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Enable logging warnings to a file"
 			Description="Output color-coded assembly instructions in listings. (/Fe)">
 			<EnumValue Name="false" Switch="" DisplayName="No logging" Description="No warning log file." />
@@ -214,37 +214,37 @@
 		</EnumProperty>
 
 		<StringProperty Category="Output Files" Name="WarningsFileName"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Warnings File Name"
 			Description="Specifies the name of the output header file. (/Fe[file])" />
 
 		<BoolProperty Category="Output Files" Name="ColorCodeAssembly"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Color coded assembly"
 			Description="Output color-coded assembly instructions in listings. (/Cc)"
 			Switch="/Cc" />
 			
 		<BoolProperty Category="Output Files" Name="OutputInstructionNumbers"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Enable instruction numbering"
 			Description="Enables the numbering of instructions in assembly listings. (/Ni)"
 			Switch="/Ni" />
 
 		<!-- Options for the Advanced sub menu -->
 		<StringProperty Category="Advanced" Name="EntryPointName"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Shader Entry Point"
 			Description="Specifies the entry point of the shader. (/E[name])"
 			Switch="/E&quot;[value]&quot;" />
 	
 		<StringProperty Category="Advanced" Name="VariableName"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Variable name"
 			Description="When generating a header file, specify the variable name. (/Vn[name])"
 			Switch="/Vn&quot;[value]&quot;" />
 	
 		<EnumProperty Category="Advanced" Name="TargetProfile"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Shader Model"
 			Description="Selects the shader model to compile for. (/T[profile])">
 			<EnumValue Name="vs_1_1" DisplayName="Vertex Shader 1.1" Switch="/Tvs_1_1" />
@@ -272,25 +272,25 @@
 		</EnumProperty>
 			
 		<BoolProperty Category="Advanced" Name="LoadDX931"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Load d3dx9_31.dll"
 			Description="Use version 3.1 of the DirectX 9 DLL. (/LD)"
 			Switch="/LD" />
 
 		<BoolProperty Category="Advanced" Name="CompressDX10"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Compress DX10 shader bytecode"
 			Description="Compress DX10 shader bytecode from files (/compress)"
 			Switch="/compress" />
 
 		<BoolProperty Category="Advanced" Name="DecompressDX10"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Decompress bytecode from the first file"
 			Description="Decompress bytecode from the first file. (/decompress)"
 			Switch="/decompress" />
 
 		<BoolProperty Category="Advanced" Name="CompileChildFx4"
-			HelpUrl="http://msdn.microsoft.com/en-us/library/windows/desktop/bb509709(v=vs.85).aspx"
+			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Compile as a child effect for FX 4.x targets."
 			Description="Compile as a child effect for FX 4.x targets. (/Gch)"
 			Switch="/Gch" />

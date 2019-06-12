@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="hlsl2019.burgerbecky.ac430f7e-0643-4120-b427-06fed4a16678" Version="1.0.1" Language="en-US" Publisher="Rebecca Ann Heineman" />
+        <Identity Id="hlsl2019.burgerbecky.ac430f7e-0643-4120-b427-06fed4a16678" Version="1.0.3" Language="en-US" Publisher="Rebecca Ann Heineman" />
         <DisplayName>HLSL Visual Studio 2019+ fxc Compiler</DisplayName>
         <Description xml:space="preserve">This is a plug in for Visual Studio 2019 or higher that will allow files with the HLSL extension to automatically be compiled with the fxc tool found in the DirectX SDK. Requires the DirectX SDK to be installed https://www.microsoft.com/en-us/download/details.aspx?id=6812 The tool will be listed as "Effect-Compiler Tool" Versions compatible with earlier versions of Visual Studio can be found here: https://github.com/burgerbecky/hlslvisualstudio</Description>
         <MoreInfo>https://github.com/burgerbecky/hlslvisualstudio</MoreInfo>
