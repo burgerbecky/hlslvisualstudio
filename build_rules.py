@@ -16,10 +16,11 @@ from __future__ import absolute_import, unicode_literals
 
 import os
 import sys
-import burger
+from burger import clean_files, clean_directories
 
 # Unused arguments
 # pylint: disable=W0613
+
 
 def rules(command, working_directory=None, root=True, **kargs):
     """
@@ -52,9 +53,9 @@ def rules(command, working_directory=None, root=True, **kargs):
     """
 
     if command == 'clean':
-        burger.clean_directories(
+        clean_directories(
             working_directory, ('bin', 'obj', 'Properties', '.vs'))
-        burger.clean_files(working_directory, ('Key.snk', '*.user', '*.suo'))
+        clean_files(working_directory, ('Key.snk', '*.user', '*.suo'))
 
     return 0
 
