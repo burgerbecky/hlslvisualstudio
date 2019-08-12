@@ -99,7 +99,7 @@
 			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
 			DisplayName="Disable preshaders."
 			Description="Disable preshaders. (/Op)"
-			Switch="/oP" />
+			Switch="/Op" />
 			
 		<EnumProperty Category="Optimization" Name="MatricesPacking"
 			HelpUrl="https://docs.microsoft.com/en-us/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax"
