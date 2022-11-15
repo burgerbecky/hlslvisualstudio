@@ -23,9 +23,13 @@ IDE and the [June 2010 or later Direct X SDK](https://www.microsoft.com/en-us/do
 
 Download it directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BurgerBecky.hlslvs2012)
 
-### For Visual Studio 2019 and later
+### For Visual Studio 2019
 
 Download it directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BurgerBecky.hlslvs2019)
+
+### For Visual Studio 2022
+
+Download it directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BurgerBecky.hlslvs2022)
 
 ## How to use it
 
@@ -43,11 +47,15 @@ All files that end with the suffix of *.hlsl will automatically map to this tool
 
 The source code to the tool is in the folder "BuildCustomizations" on [Github](https://github.com/burgerbecky/hlslvisualstudio). Pull requests and bug reports are encouraged.
 
+## Build prerequisite
+
+In the extensions, install *Microsoft Visual Studio Installer Projects* so Visual Studio can load the \*.vdproj files
+
 -------
 
 ## License
 
-Copyright 2015-2019 by Rebecca Ann Heineman becky@burgerbecky.com
+Copyright 2015-2022 by Rebecca Ann Heineman becky@burgerbecky.com
 
 It is released under an MIT Open Source license. Please see LICENSE.txt for license details. Yes, you can use it in a commercial title without paying anything, just give me a credit.
 

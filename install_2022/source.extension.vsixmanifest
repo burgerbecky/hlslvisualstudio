@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="hlsl22.burgerbecky.5438aa05-ff62-4818-b8bf-823f9dd99ce0" Version="1.0.5" Language="en-US" Publisher="Rebecca Ann Heineman" />
+        <DisplayName>HLSL Visual Studio 2022 fxc Compiler</DisplayName>
+        <Description xml:space="preserve">This is a plug in for Visual Studio 2022 that will allow files with the HLSL extension to automatically be compiled with the fxc tool found in the DirectX SDK. Requires the DirectX SDK to be installed https://www.microsoft.com/en-us/download/details.aspx?id=6812 The tool will be listed as "Effect-Compiler Tool" Versions compatible with earlier versions of Visual Studio can be found here: https://github.com/burgerbecky/hlslvisualstudio</Description>
+        <MoreInfo>https://github.com/burgerbecky/hlslvisualstudio</MoreInfo>
+        <GettingStartedGuide>https://github.com/burgerbecky/hlslvisualstudio/blob/master/README.md</GettingStartedGuide>
+        <Icon>Resources\burgericon.png</Icon>
+        <PreviewImage>Resources\burgericon.png</PreviewImage>
+        <Tags>hlsl, directx, fxc, shader, build, buildcustomizations, compiler, game, graphics</Tags>
+    </Metadata>
+    <Installation AllUsers="true">
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>arm64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>arm64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+            <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+            <ProductArchitecture>arm64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.IntegratedShell">
+            <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.IntegratedShell">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.IntegratedShell">
+            <ProductArchitecture>arm64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
